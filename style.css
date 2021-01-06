@@ -5,5 +5,75 @@
 body, html {
     padding: 0;
     margin: 0;
+}
+
+body {
+    display: flex;   
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
     
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+main {
+  background-image: url('Sneakers.png');
+  background-repeat: no-repeat;
+  width: 1000%;
+  height: 900px;
+}
+
+a {
+    color: black;
+
+}
+
+.header-left {
+
+}
+
+.header-right {
+    display: flex; 
+    text-align: end;
+    justify-content: space-between;
+    min-width: 300px;   
+}
+
+
+.nav-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+}
+
+.nav-right {
+    
+}
+
+.nav-bottom {
+text-align: center;
+}
+
+.product-img {
+
+}
+
